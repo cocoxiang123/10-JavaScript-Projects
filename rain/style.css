@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.rain {
+  position: fixed;
+  top: -1vh;
+  animation: raining 3s forwards linear;
+}
+@keyframes raining {
+  to {
+    top: 101vh;
+  }
+}

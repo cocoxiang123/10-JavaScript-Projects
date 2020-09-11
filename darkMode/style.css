@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.3s linear, color 0.3s linear;
+}
+body.dark {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.toggle-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle-text {
+  margin: 5px;
+  user-select: none;
+}
+
+.toggle-btn-container {
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 50px;
+  border: 2px solid #1f1f1f;
+  border-radius: 30px;
+  cursor: pointer;
+}
+body.dark .toggle-btn-container {
+  border: 2px solid #fff;
+}
+.toggle-btn {
+  border-radius: 50%;
+  background-color: #1f1f1f;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  transition: all 0.3s linear;
+}
+body.dark .toggle-btn {
+  left: 30px;
+  background-color: #fff;
+}

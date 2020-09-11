@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+#btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+#btn:focus {
+  outline: 0;
+}
+#btn:active {
+  transform: scale(0.98);
+}
