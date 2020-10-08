@@ -2,7 +2,7 @@
 ![screenshot](/screenshots/darkmode.gif)
 
 ## Zoom In
-![screenshot](/screenshots/zonein.gif)
+![screenshot](/screenshots/zoomin.gif)
 
 ## Auto Text
 ![screenshot](/screenshots/autoText.gif)
