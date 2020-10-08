@@ -1,1 +1,1 @@
-![/screenshots/darkmode.gif]
+![screenshot](/screenshots/darkmode.gif)
