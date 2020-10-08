@@ -1,1 +1,1 @@
-![/screenshots/screenshot.gif]
+![/screenshots/darkmode.gif]
